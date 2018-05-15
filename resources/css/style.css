@@ -105,12 +105,12 @@ ul li{
 .banner .flex{
   justify-content: flex-end;
 }
-.motto span{
+.banner .motto span{
   font-weight: bold;
   font-size: 2rem;
 }
 
-.motto{
+.banner .motto{
   background-color: white;
   margin-top: 10rem;
   margin-right: -2rem;
@@ -127,7 +127,7 @@ ul li{
   justify-content: center;
 }
 
-.item{
+.service .item{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -139,15 +139,15 @@ ul li{
 }
 
 
-.exams img{
+.service .exams img{
   width: 3.5rem;
 }
 
-.fittings img{
+.service .fittings img{
   width: 5rem;
 }
 
-.delivery img{
+.service .delivery img{
   width: 5rem;
 }
 
