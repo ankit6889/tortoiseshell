@@ -1,0 +1,186 @@
+/* Gneral Section */
+html{
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: Helvetica;
+  display: block;
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex
+}
+
+div{
+  display: block;
+}
+
+h4{
+  font-size: 1rem;
+}
+/*Banner Section*/
+
+
+.banner{
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+/*Navigation*/
+.head{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: cadetblue;
+  align-items: center;
+}
+
+.company img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul li{
+  display: inline;
+  padding: 1rem 1rem;
+}
+
+.mobile_menu{
+  display: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .banner{
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .banner .motto{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+
+  .banner .motto span{
+    font-size: 1.33rem;
+  }
+
+  @media only screen and (max-width: 670px) {
+    .banner{
+      height: 17rem;
+      background-position: 20%;
+    }
+
+    .banner .motto{
+      margin-top: 9rem;
+      margin-right: 0;
+      width: 100%;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .banner .motto span{
+      font-size: 1.33rem;
+    }
+
+
+}
+
+/*Headline*/
+
+.banner .flex{
+  justify-content: flex-end;
+}
+.motto span{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.motto{
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+  line-height: 2.4rem;
+}
+
+/*Service Scetion*/
+
+.service .container{
+
+  margin: 3rem auto;
+  justify-content: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 0 3rem;
+}
+
+
+.exams img{
+  width: 3.5rem;
+}
+
+.fittings img{
+  width: 5rem;
+}
+
+.delivery img{
+  width: 5rem;
+}
+
+/*Articl Section*/
+
+.article{
+  width: 35%;
+  margin-right: 5%;
+}
+
+.articles .container{
+  justify-content: center;
+}
+
+.article h4{
+  color: white;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+}
+
+
+footer{
+  margin-top: 5rem;
+}
+
+footer .container{
+  background-color: azure;
+  padding: 4rem;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-right: 1rem;
+}
