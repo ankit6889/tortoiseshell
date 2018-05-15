@@ -63,43 +63,6 @@ ul li{
   display: none;
 }
 
-@media only screen and (max-width: 960px) {
-  .banner{
-    height: 22rem;
-    padding-top: 0;
-  }
-
-  .banner .motto{
-    margin-top: 5rem;
-    margin-right: 2rem;
-    padding: 0.75rem 4rem;
-  }
-
-  .banner .motto span{
-    font-size: 1.33rem;
-  }
-
-  @media only screen and (max-width: 670px) {
-    .banner{
-      height: 17rem;
-      background-position: 20%;
-    }
-
-    .banner .motto{
-      margin-top: 9rem;
-      margin-right: 0;
-      width: 100%;
-      padding: 1rem 0;
-      text-align: center;
-    }
-
-    .banner .motto span{
-      font-size: 1.33rem;
-    }
-
-
-}
-
 /*Headline*/
 
 .banner .flex{
@@ -183,4 +146,43 @@ footer .container{
 footer img{
   height: 1.5rem;
   margin-right: 1rem;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+  .banner{
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .banner .motto{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+
+  .banner .motto span{
+    font-size: 1.33rem;
+  }
+
+  @media only screen and (max-width: 670px) {
+    .banner{
+      height: 17rem;
+      background-position: 20%;
+    }
+
+    .banner .motto{
+      margin-top: 9rem;
+      margin-right: 0;
+      width: 100%;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .banner .motto span{
+      font-size: 1.33rem;
+    }
+
+
 }
